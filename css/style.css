@@ -4,16 +4,22 @@
 img{
     max-width: 100%;
 }
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+
 a{
 	text-decoration: none;
-	color: unset;
+	/* color: unset; */
+}
+/* utils */
+.image-holder {
+    padding: 0.2rem;
+
 }
 
+.image-holder.true {
+    border: 3px solid #117bd1;
+}
+
+/* header */
 .black-sony,
 .black-sony-logo{
     height: 2.5rem;
@@ -29,12 +35,4 @@ a{
     height: 35rem;
     width: 100%;
     
-}
-
-.image-holder{
-    padding: 0.2rem;
-    
-}
-.image-holder.true{
-    border:3px solid #117bd1;
 }
