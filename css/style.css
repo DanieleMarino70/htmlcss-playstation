@@ -19,6 +19,10 @@ a{
     border: 3px solid #117bd1;
 }
 
+.bg-semi-black{
+    background-color: #1f1f1f;
+}
+
 /* header */
 .black-sony,
 .black-sony-logo{
@@ -35,4 +39,8 @@ a{
     height: 35rem;
     width: 100%;
     
+}
+
+.jumbotron.it-takes-two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
