@@ -41,6 +41,16 @@ a{
     
 }
 
+/* main */
 .jumbotron.it-takes-two{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.playstation-plus{
+    background-color: #bebcbb;
+}
+
+.playstation-now{
+    background-color: #161c3b;
+    color: white;
 }
