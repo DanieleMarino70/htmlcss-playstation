@@ -13,6 +13,9 @@ a{
 	text-decoration: none;
 	color: unset;
 }
+
+/* GENERAL */
+
 /* utils */
 .image-holder {
     padding: 0.2rem;
@@ -28,17 +31,44 @@ a{
 }
 
 /* header */
+.header-bottom {
+    padding-top: 7.2rem;
+}
 .black-sony,
 .black-sony-logo{
     height: 2.5rem;
 }
+
+
+
+/* bootstrap navbar classes modified */
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+
+}
+.dropdown-menu[data-bs-popper]{
+    margin: 0;
+}
+
+.dropdown-menu>li {
+    display: inline-block;
+}
+
+
 
 .jumbotron{
     display: flex;
     background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
+    background-position: center top;
     color: white;
     height: 35rem;
     width: 100%;
